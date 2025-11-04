@@ -1,17 +1,16 @@
 import style from '@/components/blogPreview.module.css';
-import { Blog } from '@/app/blogData';
 import Image from "next/image";
 import Link from 'next/link';
+import blogs from '@/app/blogData';
 
 
-export default function BlogPreview(blog : Blog){
+export default function Page(){
+    const blog = blogs[0];
     return(
         <div className={style.blog}>
 
             <div className={style.blogImage}>
-                <Link href={`/${blog.slug}`}>
-                    <Image src={blog.image} alt={blog.imageAlt} width={400} height={300}></Image>
-                </Link>
+                <Image src={blog.image} alt={blog.imageAlt} width={400} height={300}></Image>
             </div>
 
             <div className={style.blogAbout}>

@@ -8,7 +8,7 @@ export default function NavBar()
     <header>
         <nav className={style.navbar}>
             <h2 className={style.logo}>
-                <a href="index.html">omar's website</a>
+                <a href="/">omar's website</a>
             </h2>
             <ul className={style.navlist}>
                 <li><Link href="/">Home</Link></li>

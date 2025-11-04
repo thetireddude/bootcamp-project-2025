@@ -16,7 +16,7 @@ const blogs: Blog[] = [
         description: "blog post that talks about completing the hack4impact starter pack",
         image: "/website.png",
         imageAlt: "screenshot of personal website",
-        slug: "blog/completing-the-starter-pack.html"
+        slug: "blog/completing-the-starter-pack"
     },
     {
         title: "Learning Typescript",
@@ -24,7 +24,7 @@ const blogs: Blog[] = [
         description: "very first blog post about learning typescript",
         image: "/typescript1.png",
         imageAlt: "screenshot of vscode typescript project",
-        slug: "blog/learning-typescript.html"
+        slug: "blog/learning-typescript"
     }
 ];
 
