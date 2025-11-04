@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist_Mono, Agdasima, Pacifico } from "next/font/google";
+import { Geist_Mono, Agdasima, Pacifico, Inconsolata } from "next/font/google";
 import "./globals.css";
 import NavBar from '@/components/navbar';
 
@@ -7,6 +7,13 @@ const pacifico = Pacifico({
   variable: "--font-pacifico",
   subsets: ["latin"],
   weight: '400'
+});
+
+const inconsolata = Inconsolata({
+  variable: "--font-inconsolata",
+  subsets: ["latin"],
+  weight: ['300', '400'],
+  style: 'normal'
 });
 
 const geistMono = Geist_Mono({

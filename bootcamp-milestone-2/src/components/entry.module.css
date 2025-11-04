@@ -1,0 +1,9 @@
+.title {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.info, .description {
+    font-family: monospace;
+    margin: 10px 0;
+}
+
