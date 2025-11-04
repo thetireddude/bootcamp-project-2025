@@ -49,6 +49,14 @@
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
+.Image {
+  transition: transform 0.2s ease;
+}
+
+.Image:hover{
+  transform: scale(1.01);
+}
+
 .aboutText {
   line-height: 1.5;
   color: black;

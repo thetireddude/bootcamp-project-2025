@@ -1,14 +1,13 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import PageTitle from "@/components/pageTitle";
-import ImageComponent from "@/components/image"
 
 export default function Home() {
   return (
     <div className={styles.component}>
       <PageTitle title="Welcome"/>
       <div className={styles.about}>
-        <ImageComponent src="about.jpg" alt="city-landscape-image"></ImageComponent>
+        <Image className={styles.Image} src="/about.jpg" alt="city-landscape-image" width={550} height={310} style={{borderRadius: '7px'}}></Image>
         <div className={styles.aboutText}>
           <p>
             <em>Hi!</em><br/>
