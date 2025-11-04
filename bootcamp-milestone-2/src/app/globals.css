@@ -29,6 +29,9 @@ body {
   justify-content: center;
   align-items: center;
 
+  font-family: monospace;
+  font-size: 16px;
+
   background-color: var(--cg-black);
   color: var(--cg-white);
 
