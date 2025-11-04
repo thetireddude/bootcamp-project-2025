@@ -17,7 +17,7 @@ export default function BlogPreview(blog : Blog){
             <div className={style.blogAbout}>
                 <h1>{blog.title}</h1>
                 <span className={style.date}>{blog.date}</span>
-                <p>{blog.description}</p>
+                <p className={style.description}>{blog.description}</p>
             </div>
         </div>
     );

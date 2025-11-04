@@ -5,8 +5,9 @@
 }
 
 .contactForm{
-    background-color: #878282;
-    border-radius: 15px;
+    background-color: #e4dede;
+    color: rgb(78, 77, 77);
+    border-radius: 7px;
     
     text-align: center;
 
@@ -27,7 +28,43 @@
     background-color: #b2b0b0;
     padding: 5px 10px;
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 3px;
     border: none;
+
+    transition: transform 0.2s ease;
+}
+
+.submitBtn:hover {
+    transform: scale(1.1);
+}
+
+.submitBtn:active {
+    transform: scale(1);
+}
+
+.textareaField {
+    background-color: #989595;
+    border: none;
+    border-radius: 3px;
+    margin-top: 5px;
+    color: black;
+    padding: 5px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.textareaField:focus {
+    background-color: #d4d2d2;
+}
+
+.textareaField:hover {
+    transform: scale(1.01);
+}
+
+.textarea {
+    padding: 5px;
+}
+
+.form {
+    text-align: left;
 }
 

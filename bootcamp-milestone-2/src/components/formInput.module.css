@@ -1,3 +1,23 @@
 .input {
     margin: 10px;
 }
+
+.inputField {
+    background-color: #989595;
+    padding: 7px;
+    margin-top: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    color: black;
+
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.inputField:focus {
+    background-color: #d4d2d2;
+}
+
+.inputField:hover {
+    transform: scale(1.01);
+}

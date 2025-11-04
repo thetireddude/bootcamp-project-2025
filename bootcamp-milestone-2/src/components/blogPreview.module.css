@@ -1,5 +1,5 @@
 .blog {
-    background-color:#878282;
+    background-color:#e4dede;
 
     margin: 30px auto;
     padding: 5px;
@@ -46,4 +46,9 @@
     font-style: italic;
     color:#3c3b3b;
     margin-bottom: 20px;
+}
+
+.description {
+    color: rgb(56, 54, 54);
+    margin-top: 10px;
 }

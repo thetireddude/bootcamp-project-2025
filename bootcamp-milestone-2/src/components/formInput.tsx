@@ -5,7 +5,7 @@ export default function FormInput(props: {label: string, name: string, type: str
     return(
         <div className={style.input}>
             <label htmlFor={props.name}>{props.label}</label><br/>
-            <input type={props.type} id={props.name} name={props.name} placeholder={props.placeholder} required/>
+            <input className={style.inputField} type={props.type} id={props.name} name={props.name} placeholder={props.placeholder} required/>
         </div>
     );
 }
