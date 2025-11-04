@@ -1,7 +1,7 @@
-import React from 'react';
 import style from '@/components/blogPreview.module.css';
 import { Blog } from '@/app/blogData';
 import Image from "next/image";
+import Link from 'next/link';
 
 
 export default function BlogPreview(blog : Blog){
@@ -9,9 +9,9 @@ export default function BlogPreview(blog : Blog){
         <div className={style.blog}>
 
             <div className={style.blogImage}>
-                <a href={blog.slug}>
+                <Link href={`/blog/${blog.slug}`}>
                     <Image src={blog.image} alt={blog.imageAlt} width={400} height={300}></Image>
-                </a>
+                </Link>
             </div>
 
             <div className={style.blogAbout}>

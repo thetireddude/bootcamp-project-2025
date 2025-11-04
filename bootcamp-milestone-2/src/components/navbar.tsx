@@ -11,11 +11,11 @@ export default function NavBar()
                 <a href="index.html">omar's website</a>
             </h2>
             <ul className={style.navlist}>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><Link href="/">Home</Link></li>
+                <li><Link href="/blog">Blog</Link></li>
+                <li><Link href="/portfolio">Portfolio</Link></li>
+                <li><Link href="/resume">Resume</Link></li>
+                <li><Link href="/contact">Contact</Link></li>
             </ul>
         </nav>
     </header>
