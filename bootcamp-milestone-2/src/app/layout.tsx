@@ -39,7 +39,6 @@ export default function RootLayout({
         <NavBar/>
         {children}
         <footer className="footer">
-          <br></br>
         © 2025 Omar's Website | All Rights Reserved
         </footer>
       </body>

@@ -1,3 +1,4 @@
+import React from 'react';
 import styles from './pageTitle.module.css';
 
 type PageTitleProps = {

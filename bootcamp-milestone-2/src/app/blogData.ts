@@ -14,7 +14,7 @@ const blogs: Blog[] = [
         title: "Completing the starter pack",
         date: "04-11-2025",
         description: "blog post that talks about completing the hack4impact starter pack",
-        image: "website.png",
+        image: "/website.png",
         imageAlt: "screenshot of personal website",
         slug: "blog/completing-the-starter-pack.html"
     },
@@ -22,7 +22,7 @@ const blogs: Blog[] = [
         title: "Learning Typescript",
         date: "14-11-2025",
         description: "very first blog post about learning typescript",
-        image: "typescript1.png",
+        image: "/typescript1.png",
         imageAlt: "screenshot of vscode typescript project",
         slug: "blog/learning-typescript.html"
     }
