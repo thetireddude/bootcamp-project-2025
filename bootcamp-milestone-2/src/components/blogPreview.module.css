@@ -1,0 +1,49 @@
+.blog {
+    background-color:#878282;
+
+    margin: 30px auto;
+    padding: 5px;
+    border-radius: 10px;
+
+
+    width: 70vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    transition: transform 0.2s ease;
+}
+
+.blog:hover{
+    transform: scale(1.01);
+    box-shadow: 2px 2px 5px #191919;
+}
+
+.blogImage {
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    overflow: hidden;
+    line-height: 0;
+    min-width: 400;
+}
+
+.blogAbout {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+}
+
+.blogAbout h1 {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.blogAbout .date {
+    font-style: italic;
+    color:#3c3b3b;
+    margin-bottom: 20px;
+}
